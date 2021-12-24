@@ -449,3 +449,39 @@ footer section ul li {
 .decrease-width {
   width: 48%;
 }
+
+/* Page 6 */
+.page-6 {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background: #000;
+}
+.page-6 > .page-6-text {
+  font-size: 2em;
+}
+.page-6 > .page-6-text > h4 {
+  font-size: 0.9rem;
+  color: #9d999e;
+}
+.page-6 > .page-6-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  align-items: center;
+  padding: 5em 0;
+}
+.page-6 > .page-6-videos > a > img {
+  width: 250px;
+  transition: all 0.5s ease-in-out;
+}
+.page-6 > .page-6-videos > a > img:last-child {
+  height: 150px;
+}
+.page-6 > .page-6-videos > a > img:hover {
+  filter: drop-shadow(1px 2px 8px #fff);
+}
