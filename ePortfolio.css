@@ -373,12 +373,13 @@ footer section ul li {
 /* Fourth Page */
 .third-page-4 {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background: rgb(119, 76, 108);
 
   display: grid;
   align-content: center;
   justify-items: center;
+  flex-direction: column;
   grid-template-columns: repeat(2, 1fr);
 
   color: #fff;
@@ -396,6 +397,14 @@ footer section ul li {
   width: 200px;
 }
 
+.third-page-4 > .maikling-kwento {
+  display: flex;
+  flex-direction: column;
+}
+.third-page-4 > .maikling-kwento > img {
+  margin: 0 auto;
+  width: 60vw;
+}
 .container-link {
   display: flex;
   align-items: center;
@@ -412,6 +421,40 @@ footer section ul li {
 .container-link > .links:hover {
   filter: drop-shadow(1px 2px 4px rgb(255, 1, 1));
   width: 500px;
+}
+
+/* Page 4 Continuation */
+.page-4 {
+  width: 100%;
+  padding: 2em 0;
+
+  color: #5c3368;
+}
+.page-4 > .filipino-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-4 > .filipino-work > table {
+  width: 50vw;
+  height: 80%;
+}
+.page-4 > .filipino-work > table:last-child p {
+  text-align: center;
+  padding: 1em;
+}
+
+.page-4 > .filipino-work > h3 {
+  font-size: 2rem;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 /* Page 5 */
