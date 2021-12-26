@@ -710,7 +710,7 @@ footer section ul li {
   width: 280px;
 }
 /* Footer */
-footer {
+.linking-sphere {
   position: fixed;
   bottom: 1em;
   right: 1em;
@@ -720,7 +720,7 @@ footer {
   background: transparent;
 }
 
-footer > a {
+.linking-sphere > a {
   width: 35px;
   line-height: 35px;
   background: #5c3368;
