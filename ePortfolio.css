@@ -9,7 +9,7 @@
 body {
   background-color: rgb(255, 255, 255);
   color: #cb42f1;
-  /* font-family: "Poppins", sans-serif; */
+  --ff-pop: "Poppins", sans-serif;
   --ff-family: "Qahiri", sans-serif;
   --ff-desc: "Noto Sans Mono", monospace;
   overflow-x: hidden;
@@ -430,6 +430,111 @@ footer section ul li {
 
   color: #5c3368;
 }
+
+.page-4 > .filipino-work > .test-4 {
+  margin: 2em 0;
+  display: grid;
+  grid-row-gap: 1em;
+}
+.page-4 > .filipino-work > .test-4 > .test-4-maikling-kwento {
+  display: flex;
+  flex-direction: row;
+
+  background: rgb(203, 185, 207);
+
+  padding: 2em 0 2em 2em;
+}
+.page-4 > .filipino-work > .test-4 > .fix-padding {
+  padding-left: 0;
+  padding-right: 2em;
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > p {
+  text-align: justify;
+}
+.page-4 > .filipino-work > .test-4 > .test-4-maikling-kwento > .padding-lr {
+  padding: 0 1.25em;
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > .remove-padding {
+  padding: 0;
+  padding-left: 2.5em;
+  padding-right: 2em;
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > ul
+  span {
+  font-family: var(--ff-pop);
+  background: yellowgreen;
+  font-size: 0.95rem;
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > ul {
+  padding: 2em;
+  text-align: justify;
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > ul
+  > li:first-child
+  > ul {
+  margin-left: auto;
+  width: 85%;
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > p
+  > span {
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: var(--ff-family);
+}
+.page-4
+  > .filipino-work
+  > .test-4
+  > .test-4-maikling-kwento
+  > .maikling-kwento-content
+  > h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+.test-4 > .test-4-answer {
+  display: flex;
+  flex-direction: row;
+
+  background: #ccc;
+
+  padding: 1em 2em 2em 1em;
+}
+.test-4 > .test-4-answer > .test-4-text {
+  text-align: justify;
+  padding: 1em 0 0 1em;
+}
 .page-4 > .filipino-work {
   display: flex;
   flex-direction: column;
@@ -443,6 +548,12 @@ footer section ul li {
 .page-4 > .filipino-work > table:last-child p {
   text-align: center;
   padding: 1em;
+}
+.page-4 > .filipino-work > .test-4 {
+  width: 50vw;
+}
+.page-4 > .filipino-work > .test-4 > h3 {
+  font-size: 1.25rem;
 }
 
 .page-4 > .filipino-work > h3 {
